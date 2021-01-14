@@ -64,3 +64,30 @@ li:before{
 .yandex{
 	color: red;
 }
+.circle{
+	line-height: 200px;
+	text-align: center;
+	width: 250px;
+	height: 250px;
+	display: flex;
+  	flex-wrap: wrap;
+ 
+	border-radius: 50%;
+	background-color: #0AFC40;
+
+}
+.circle1{
+	padding-top: 24px;
+	display: flex;
+  	justify-content: space-between;
+  	overflow: hidden;
+	
+}
+.parCircle{
+	margin-left: 35%;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: white;
+}
