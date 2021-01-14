@@ -67,8 +67,8 @@ li:before{
 .circle{
 	line-height: 200px;
 	text-align: center;
-	width: 250px;
-	height: 250px;
+	width: 230px;
+	height: 230px;
 	display: flex;
   	flex-wrap: wrap;
  
@@ -84,7 +84,7 @@ li:before{
 	
 }
 .parCircle{
-	margin-left: 35%;
+	margin-left: 33%;
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: bold;
