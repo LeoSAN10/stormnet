@@ -26,3 +26,21 @@ margin: auto;
 	font-size: 24px;
 	line-height: 1px;
 }
+.paragraphs1{
+	padding-top: 36px;
+	padding-left: 100px; 
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+}
+.paragraphs{
+	padding-top: 24px;
+	padding-left: 100px; 
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+}
