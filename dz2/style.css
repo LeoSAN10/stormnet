@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+li{
+	list-style-type: none;
+}
+ ul.hr {
+ 	padding-left: 140px;
+    margin: 0; 
+    width: 46px;
+height: 19px;/* Обнуляем значение отступов */
+   /* Значение полей */
+   }
+   ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 20px; /* Отступ слева */
+  	padding: 3px;
+  	font-family: 'Rubik', sans-serif;
+  	font-size: 16px;
+line-height: 19px;
+
+   }
+.navigation{
+	overflow:hidden;
+	width:100%;
+}
+.menu{
+	padding-left: 20px;
+	white-space: nowrap;
+}
+.menu div{
+	margin-left: 0px;
+	
+	width:100px;
+	display:inline-block;
+	
+}
+.block3{
+	
+	padding-left: 550px;
+	margin-right: 0px;
+}
+.img{
+
+	position:relative;
+
+transform:translateY(16%);
+	padding-left: 30px;
+	width: 115px;
+	display:inline-block;
+	padding-top: 20px;
+	
+}
+.font{
+	font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+}
+.signBorder{
+	
+	color: #F53855;
+	text-align: center;
+	border: 1px solid #F53855;
+	border-radius: 50px;
+	width: 130px;
+	height: 25px;
+}
