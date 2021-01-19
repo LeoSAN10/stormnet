@@ -56,7 +56,7 @@ transform:translateY(21%);
 	width: 90px;
 	height: 25px;
 	display:inline-block;
-	padding-top: 20px;
+	padding-top: 5px;
 	
 }
 .font{
@@ -86,7 +86,7 @@ font-size: 11px;
 	position: absolute;
 	padding-left: 545px;
 	width: 440px;
-height: 450px;
+height: 470px;
 float: left; /* Обтекание картинки по левому краю */
      /* Отступ снизу */
 }
@@ -105,6 +105,7 @@ height: 140px;
 
 }
 .paragraph{
+	margin-bottom: 30px;
 	padding-left: 50px;
 	font-family: Rubik;
 font-style: normal;
@@ -112,9 +113,11 @@ font-weight: normal;
 font-size: 13px;
 line-height: 25px;
 color: #4F5665;
+margin-bottom: 30px;
 }
 .blockBtn{
-	height: 140px;
+	height: 100px;
+	padding-top: 10px;
 }
 .btn{
 background: #F53838;
