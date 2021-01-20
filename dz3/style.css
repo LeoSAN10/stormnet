@@ -1,7 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 *{
 	box-sizing: border-box;
 }
 body{
 	padding: 0;
+	margin: 0 auto;
+	background-color: #181818;
+}
+
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+   }
+   ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 20px; /* Отступ слева */
+    color: #FFFFFF;
+    padding: 3px; /* Поля вокруг текста */
+   }
+
+
+li{
+	list-style: none;
+}
+.header{
+	
+	display: flex;
+	padding-left: 30px;
+	white-space: nowrap;
+	max-width: 1097px;
+	margin: 30px auto;
+
+}
+
+.header div{
+	
+	display:inline-block;	
+}
+.logo{
+
+	width: 206px;
+	height: 78px;
+	
+}
+.menu{
+	color: #FFFFFF;
+	margin-left: 127px;
+	margin-top: 25px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+}
+.login{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 25px;
+	letter-spacing: 0.2px;
+	padding: 11px 50px;
+	border: 1px solid #FFFFFF;
+	margin-left: 211px;
 	margin: auto;
+	width: 148px;
+	height: 52px;
+	align-items: center;
+	color: #FFFFFF;
+}
+a{
+	color: #FFFFFF;
+	text-decoration: none; 
+}
+.section2{
+	margin-top: 90px;
+	color: #FFFFFF;
+	align-items: center;
+	margin-right: 40px;
+}
+.h1{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 80px;
+line-height: 88px;
+/* or 110% */
+
+text-align: center;
+letter-spacing: 0.2px;
+}
+.paragraph{
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+margin-top: 27px;
+text-align: center;
+letter-spacing: 0.2px;
+}
+.buttons{
+
+align-items: center;
+margin-left: 550px;
+margin-top: 95px;
+}
+.btn1{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 25px;
+/* identical to box height, or 147% */
+border: 1px solid #4452FE;
+padding: 20px 40px;
+margin: 20px 40px;
+background: #4452FE;
+width: 136px;
+height: 65px;
+letter-spacing: 0.2px;
+
+/* light text */
+
+color: #FFFFFF;
+}
+.btn2{
+	padding: 20px 40px;
+	border: 1px solid #FFFFFF;
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 25px;
+/* identical to box height, or 147% */
+
+letter-spacing: 0.2px;
+
+/* light text */
+
+color: #FFFFFF;
 }
