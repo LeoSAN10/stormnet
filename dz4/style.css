@@ -5,22 +5,20 @@
 body{
     margin: 0;
     padding: 0;
+    height: 1500px;
 }
 .container{
     max-width: 1082px;
-    margin: 40px auto;
+    margin:0 auto;
 }
 .top{
     display: flex;
     margin: auto;
-}
-
-
-.middle{
-    display: flex;
-    margin: auto;
     margin-top: 32px;
 }
+
+
+
 
 
 .description{
