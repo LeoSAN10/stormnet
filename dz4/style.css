@@ -81,6 +81,7 @@ color: #787885;
 }
 
 
+
 .fa-heart {
   color: #2979FF;
   text-decoration: none;
@@ -101,7 +102,12 @@ color: #787885;
       color: #2264D1;
   }
 
-
+  .text3{
+      margin-top: 28px;
+  }
+  .indent3{
+    margin-top: 19px;
+}
 
 
  
