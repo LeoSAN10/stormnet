@@ -36,7 +36,7 @@ body{
     /* Gray / 100 */
     max-width: 227px;
     color: #19191D;
-    
+    height: 72px;
 }
 .price{
     font-family: Inter;
@@ -57,6 +57,7 @@ body{
     line-height: 143%;
     letter-spacing: 0.018em;
     max-width: 227px;
+    height: 41px;
 
 /* Gray / 50 */
 
@@ -112,12 +113,7 @@ color: #787885;
       color: #2264D1;
   }
 
-  .text3{
-      margin-top: 28px;
-  }
-  .indent3{
-    margin-top: 19px;
-}
+ 
 
 
  
