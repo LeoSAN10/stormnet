@@ -68,14 +68,16 @@ color: #787885;
 
 .item{
     max-width: 270px;
-    margin-right: 40px;
+    margin-right: 41px;
+    
     margin-left: 30px;
 }
 
 .rateOffer{
     display: flex;
-   
-	
+   max-width: 250px;
+   flex-wrap: wrap;
+   justify-content: center;
 	
 }
 .rateOffer div{
@@ -115,7 +117,39 @@ color: #787885;
       background-color: #F3F5CC;
   }
 
- 
-
+ @media screen and (max-width:1193px){
+    
+    .item{
+       
+        margin: 20px auto;
+    }
+.rateOffer{
+    max-width: 160px;
+    display: block;
+}
+.link{
+    margin: 10px 0;
+    display: inline-block;;
+}
+.top{
+    display: block;
+    
+}
+.description{
+    max-width: 240px;
+}
+ }
+ @media screen and (max-width:834px){
+    .price{
+       
+       padding-top: 15px;
+    }
+}
+ @media screen and (max-width:680px){
+    .top{
+       
+       margin: 0 auto;
+    }
+}
 
  
