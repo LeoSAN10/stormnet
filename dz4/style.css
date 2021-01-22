@@ -8,7 +8,7 @@ body{
     height: 1510px;
 }
 .container{
-    max-width: 1082px;
+    max-width: 1200px;
     margin:0 auto;
 }
 .top{
@@ -67,8 +67,9 @@ color: #787885;
 
 
 .item{
-    max-width: 259px;
+    max-width: 270px;
     margin-right: 40px;
+    margin-left: 30px;
 }
 
 .rateOffer{
