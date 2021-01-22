@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -5,9 +6,99 @@ body{
     margin: 0;
     padding: 0;
 }
-
-
 .container{
     max-width: 1082px;
-    margin: 0 auto;
+    margin-left: 32px;
 }
+
+
+.description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 24px */
+    
+    letter-spacing: 0.0275em;
+    
+    /* Gray / 100 */
+    
+    color: #19191D;
+    
+}
+.price{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.87);
+
+
+
+}
+.sub_description{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.018em;
+
+/* Gray / 50 */
+
+color: #787885;
+}
+
+
+
+
+
+.item{
+    max-width: 259px;
+    margin-right: 32px;
+}
+
+.rateOffer{
+    display: flex;
+   
+	
+	
+}
+.rateOffer div{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 8px;
+    
+    
+}
+.indent{
+    margin-top: 9px;
+}
+
+
+.fa-heart {
+  color: #2979FF;
+  text-decoration: none;
+}
+  .link{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.018em;
+    text-decoration: none;
+   
+    margin: 0 0 0 40px;
+    border: 1px solid #9DC2FF;
+    border-radius: 4px;
+    padding: 7px 12px;
+      color: #2264D1;
+  }
+
+
+
+
+ 
