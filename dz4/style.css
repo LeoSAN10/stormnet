@@ -8,12 +8,20 @@ body{
 }
 .container{
     max-width: 1082px;
-    margin-left: 32px;
+    margin: 40px auto;
 }
 .top{
     display: flex;
-    
+    margin: auto;
 }
+
+
+.middle{
+    display: flex;
+    margin: auto;
+    margin-top: 32px;
+}
+
 
 .description{
     font-family: 'Inter';
@@ -26,7 +34,7 @@ body{
     letter-spacing: 0.0275em;
     
     /* Gray / 100 */
-    
+    max-width: 227px;
     color: #19191D;
     
 }
@@ -48,6 +56,7 @@ body{
     font-size: 14px;
     line-height: 143%;
     letter-spacing: 0.018em;
+    max-width: 227px;
 
 /* Gray / 50 */
 
@@ -60,7 +69,7 @@ color: #787885;
 
 .item{
     max-width: 259px;
-    margin-right: 32px;
+    margin-right: 40px;
 }
 
 .rateOffer{
@@ -87,6 +96,7 @@ color: #787885;
   text-decoration: none;
 }
   .link{
+      
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
@@ -95,7 +105,7 @@ color: #787885;
     letter-spacing: 0.018em;
     text-decoration: none;
    
-    margin: 0 0 0 40px;
+    margin: 0 0 0 17px;
     border: 1px solid #9DC2FF;
     border-radius: 4px;
     padding: 7px 12px;
