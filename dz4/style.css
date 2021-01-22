@@ -10,7 +10,10 @@ body{
     max-width: 1082px;
     margin-left: 32px;
 }
-
+.top{
+    display: flex;
+    
+}
 
 .description{
     font-family: 'Inter';
