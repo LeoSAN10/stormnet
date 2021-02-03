@@ -6,7 +6,8 @@
 }
 body{
   font-family: 'Manrope', sans-serif;
-    box-sizing: border-box;
+  box-sizing: border-box;
+   color: #18191F;
 }
 
 
@@ -45,7 +46,15 @@ body{
   font-size: 18px;
   width: 302px;
 }
-
+ 
+.header{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  width: 730px;
+  margin-top: 40px;
+  
+}
 
 #img1{
   grid-column: 1/3; 
