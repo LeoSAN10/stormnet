@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <title>Dz_Gulp</title>
+</head>
+<body>
+    <div class="content_area">
+    <div class="sidebar" id="menu">
+        <div class="logo">
+            <a href="#">
+            <img src="assets/logo.svg" alt="logo"/>
+        </a>
+        <div class="company_name">
+            <a href="#">
+            Dashboard Kit
+            </a>
+        </div>
+        </div>
+        <div class="sidebar_list">
+            <div id="overview">
+                <a href="#">
+                <div class="content"> <div class="side_line"></div>
+                    <div class="link">
+                        <div class="icon_overwiev">
+                            
+                        </div>
+                        <div class="text_overview">Overview</div>
+                    </div>
+            </div>
+        </a>
+            </div>
+
+            <div id="overview_inactive">
+                <a href="#" onclick="changeBlockOverview()">
+                <div class="content"> <div class="side_line2"></div>
+                    <div class="link">
+                        <div class="icon_overwiev_inactive">
+                            
+                        </div>
+                        <div class="text_tickets">Overview</div>
+                    </div>
+            </div>
+        </a>
+            </div>
+            <div id="tickets"> 
+                <a href="#" onclick="changeBlockTickets()">
+                    <div class="content"> 
+                        <div class="link">
+                            <div class="icon_tickets">
+                                
+                            </div>
+                            <div class="text_tickets">Tickets</div>
+                        </div>
+                    </div>
+                </a>
+        </div>
+
+        <div id="tickets_active"> 
+            <a href="#" onclick="changeBlockTickets()">
+                <div class="content"> <div id="side_line2"></div>
+                    <div class="link">
+                        <div class="icon_tickets_active">
+                            
+                        </div>
+                        <div class="text_overview">Tickets</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+            <div class="ideas">
+                <a href="#">
+                    <div class="content"> 
+                        <div class="link">
+                            <div class="icon_ideas">
+                                
+                            </div>
+                            <div class="text_tickets">Ideas</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="contacts">
+                <a href="#">
+                    <div class="content"> 
+                        <div class="link">
+                            <div class="icon_contacts">
+                                
+                            </div>
+                            <div class="text_tickets">Contacts</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="agents">
+                <a href="#">
+                    <div class="content"> 
+                        <div class="link">
+                            <div class="icon_agents">
+                                
+                            </div>
+                            <div class="text_tickets">Agents</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="articles">
+                <a href="#">
+                    <div class="content"> 
+                        <div class="link">
+                            <div class="icon_articles">
+                                
+                            </div>
+                            <div class="text_tickets">Articles</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <hr class="line">
+        </div>
+        <div class="settings_block">
+            <div class="settings">
+                <a href="#">
+                    <div class="content"> 
+                        <div class="link">
+                            <div class="icon_settings">
+                                
+                            </div>
+                            <div class="text_tickets">Settings</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="subscription">
+                <a href="#">
+                    <div class="content"> 
+                        <div class="link">
+                            <div class="icon_subscription">
+                                
+                            </div>
+                            <div class="text_tickets">Subscription</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="overview_content" id="overview_area">
+        <div class="header">
+            <div class="description">Overview</div>
+            <div class="right_side_header">
+            <div class="vidgets">
+                <div class="search">
+                    <img src="assets/search.png" alt="search"/>
+                </div>
+                <div class="notification">
+                    <img src="assets/notification.png" alt="notification"/>
+                </div>
+            </div>
+            <div class="header_line"></div>
+            <div class="user">
+                <div class="name">Jones Ferdinand</div>
+                <div class="avatar">
+                    <img src="assets/man_header.png" alt="avatar" class="avatar_image"/>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="stat">
+            <div class="Unresolved">
+                <div class="stat_name">Unresolved</div>
+                <div class="stat_num">60</div>
+            </div>
+            <div class="Overdue">
+                <div class="stat_name2">Overdue</div>
+                <div class="stat_num2">16</div>
+            </div>
+            <div class="Open">
+                <div class="stat_name">Open</div>
+                <div class="stat_num">43</div>
+            </div>
+            <div class="On_hold">
+                <div class="stat_name">On hold</div>
+                <div class="stat_num">64</div>
+            </div>
+        </div>
+
+
+        <div class="graph_block">
+            <div class="graph">
+                <div class="graph_description">
+                    <div class="data">
+                        <div class="trends">Today’s trends</div>
+                        <div class="date">as of 25 May 2019, 09:41 PM</div>
+                    </div>
+                    <div class="graph_legend">
+                        <div class="today">
+                            <span class="hr"></span>
+                            <div class="legend_text">Today</div>
+                        </div>
+                        <div class="yesterday">
+                            <span class="hr"></span>
+                            <div class="legend_text">Yesterday</div>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/full_graph.png" alt="graphic" id="graph"/>
+            </div>
+            <div class="graph_stat">
+                <div class="Resolved">
+                    <div class="graph_stat_name">Resolved</div>
+                    <div class="graph_stat_num">449</div>
+                </div>
+                <div class="Received">
+                    <div class="graph_stat_name">Received</div>
+                    <div class="graph_stat_num">426</div>
+                </div>
+                <div class="Average_first">
+                    <div class="graph_stat_name">Average first response time</div>
+                    <div class="graph_stat_num">33m</div>
+                </div>
+                <div class="Average_second">
+                    <div class="graph_stat_name">Average response time</div>
+                    <div class="graph_stat_num">3h 8m</div>
+                </div>
+                <div class="Resolution">
+                    <div class="graph_stat_name">Resolution within SLA</div>
+                    <div class="graph_stat_num">94%</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="details">
+            <div class="Unresolved_tickets">
+                <div class="details_header">
+                    <div class="text_left">Unresolved tickets</div>
+                    <div class="text_right">
+                        <a href="#">View details</a>
+                    </div>
+                </div>
+                <div class="group_desc">
+                    <div class="group">Group:</div>
+                    <div class="group_name"> Support</div>
+                </div>
+                <div class="details_list">
+                    <div class="Request">
+                        <div class="details_name">Waiting on Feature Request</div>
+                        <div class="details_num">4238</div>
+                    </div>
+                    <div class="Response">
+                        <div class="details_name">Awaiting Customer Response</div>
+                        <div class="details_num">1005</div>
+                    </div>
+                    <div class="Fix">
+                        <div class="details_name">Awaiting Developer Fix</div>
+                        <div class="details_num">914</div>
+                    </div>
+                    <div class="Pending">
+                        <div class="details_name">Pending</div>
+                        <div class="details_num">281</div>
+                    </div>
+                </div>
+            </div>
+            <div class="Tasks">
+                <div class="tasks_header">
+                    <div class="text_left">Tasks</div>
+                    <div class="text_right">
+                        <a href="#">View all</a>
+                    </div>
+                </div>
+                <div class="tasks_date">Today</div>
+                <div class="create_task">
+                    <div class="text_left">Create new task</div>
+                    <div class="text_right">
+                        <a href="#">
+                            <img src="assets/create.png" alt="create task"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="checklist_tasks">
+                    <div class="task_list">
+                        <div class="task_desc">
+                            <div class="task_left_side">
+                                <div class="checkbox">
+                                    <a href="#">
+                                        <img src="assets/inactive.png" alt="inactive task"/>
+                                    </a>
+                                </div>
+                                <div class="task_name">Finish ticket update</div>
+                            </div>
+                            <div class="task_status">Urgent</div>
+                        </div>
+                        
+                        <div class="task_desc">
+                            <div class="task_left_side">
+                                <div class="checkbox">
+                                    <a href="#">
+                                        <img src="assets/inactive.png" alt="inactive task"/>
+                                    </a>
+                                </div>
+                                <div class="task_name">Create new ticket example</div>
+                            </div>
+                            <div class="task_status" id="second_status">New</div>
+                        </div>
+
+                        <div class="task_desc">
+                            <div class="task_left_side">
+                                <div class="checkbox">
+                                    <a href="#">
+                                        <img src="assets/active.png" alt="active task"/>
+                                    </a>
+                                </div>
+                                <div class="task_name">Update ticket report</div>
+                            </div>
+                            <div class="task_status" id="third_status">Default</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+        <div class="tickets_contents" id="tickets_area">
+                <div class="header">
+                <div class="description">Tickets</div>
+                <div class="right_side_header">
+                <div class="vidgets">
+                    <div class="search">
+                        <img src="assets/search.png" alt="search"/>
+                    </div>
+                    <div class="notification">
+                        <img src="assets/notification.png" alt="notification"/>
+                    </div>
+                </div>
+                <div class="header_line"></div>
+                <div class="user">
+                    <div class="name">Jones Ferdinand</div>
+                    <div class="avatar">
+                        <img src="assets/man_header.png" alt="avatar" class="avatar_image"/>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="tickets_table">
+                    <div class="table_desc">
+                        <div class="table_header">
+                            <div class="table_name">All tickets</div>
+                            <div class="table_actions">
+                                <div class="sort">
+                                    <div class="icon">
+                                        <img src="assets/sort.png" alt="sort">
+                                    </div>
+                                    <div class="icon_name">Sort</div>
+                                </div>
+                                <div class="filter">
+                                    <div class="icon">
+                                        <img src="assets/filter.png" alt="filter">
+                                    </div>
+                                    <div class="icon_name">Filter</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell_name">
+                            <div class="tickets_details">Ticket details</div>
+                            <div class="customer_name">Customer name</div>
+                            <div class="cell_date">Date</div>
+                            <div class="priority">Priority</div>
+                        </div>
+                    </div>
+                    <div class="person_table">
+                        <div class="person">
+                                <div class="avatar">
+                                    <img src="assets/person1.png" alt="avatar"/>
+                                </div>
+                                <div class="person_actions">
+                                    <div class="cell_name_info">Contact Email not Linked</div>
+                                    <div class="cell_name_date">Updated 1 day ago</div>
+                                </div>
+                                <div class="person_info">
+                                    <div class="cell_name_info">Tom Cruise</div>
+                                    <div class="cell_name_date">on 24.05.2019</div>
+                                </div>
+                                <div class="date_info">
+                                    <div class="cell_name_info">May 26, 2019</div>
+                                    <div class="cell_name_date">6:30 PM</div>
+                                </div>
+                                <div class="person_priority high" >High</div>
+                                <div class="margin"></div>
+                                <div class="burger">
+                                    <a href="#">
+                                        <img src="assets/burger.svg" alt="burger menu"/>
+                                    </a>
+                                </div>
+                            </div>
+                        
+
+                        <div class="person">
+                            <div class="avatar">
+                                <img src="assets/person2.png" alt="avatar"/>
+                            </div>
+                            <div class="person_actions">
+                                <div class="cell_name_info">Adding Images to Featured Posts</div>
+                                <div class="cell_name_date">Updated 1 day ago</div>
+                            </div>
+                            <div class="person_info">
+                                <div class="cell_name_info">Matt Damon</div>
+                                <div class="cell_name_date">on 24.05.2019</div>
+                            </div>
+                            <div class="date_info">
+                                <div class="cell_name_info">May 26, 2019</div>
+                                <div class="cell_name_date">8:00 AM</div>
+                            </div>
+                            <div class="person_priority low" >low</div>
+                            <div class="margin1"></div>
+                            <div class="burger">
+                                <a href="#">
+                                    <img src="assets/burger.svg" alt="burger menu"/>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="person">
+                            <div class="avatar">
+                                <img src="assets/person3.png" alt="avatar"/>
+                            </div>
+                            <div class="person_actions">
+                                <div class="cell_name_info">When will I be charged this month?</div>
+                                <div class="cell_name_date">Updated 1 day ago</div>
+                            </div>
+                            <div class="person_info">
+                                <div class="cell_name_info">Robert Downey</div>
+                                <div class="cell_name_date">on 24.05.2019</div>
+                            </div>
+                            <div class="date_info">
+                                <div class="cell_name_info">May 26, 2019</div>
+                                <div class="cell_name_date">7:30 AM</div>
+                            </div>
+                            <div class="person_priority high"  >High</div>
+                            <div class="margin"></div>
+                            <div class="burger">
+                                <a href="#">
+                                    <img src="assets/burger.svg" alt="burger menu"/>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="person">
+                            <div class="avatar">
+                                <img src="assets/person4.png" alt="avatar"/>
+                            </div>
+                            <div class="person_actions">
+                                <div class="cell_name_info">Payment not going through</div>
+                                <div class="cell_name_date">Updated 2 day ago</div>
+                            </div>
+                            <div class="person_info">
+                                <div class="cell_name_info">Christian Bale</div>
+                                <div class="cell_name_date">on 24.05.2019</div>
+                            </div>
+                            <div class="date_info">
+                                <div class="cell_name_info">May 25, 2019</div>
+                                <div class="cell_name_date">5:00 AM</div>
+                            </div>
+                            <div class="person_priority normal" >Normal</div>
+                            <div class="burger">
+                                <a href="#">
+                                    <img src="assets/burger.svg" alt="burger menu"/>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="person">
+                            <div class="avatar">
+                                <img src="assets/person5.png" alt="avatar"/>
+                            </div>
+                            <div class="person_actions">
+                                <div class="cell_name_info">Unable to add replies</div>
+                                <div class="cell_name_date">Updated 2 day ago</div>
+                            </div>
+                            <div class="active_user">
+                            <img src="assets/hand.png"/>
+                            </div>
+                            <div class="person_info_active">
+                                <div class="cell_name_info">Henry Cavil</div>
+                                <div class="cell_name_date">on 24.05.2019</div>
+                            </div>
+                            <div class="date_info_active">
+                                <div class="cell_name_info">May 25, 2019</div>
+                                <div class="cell_name_date">4:00 AM</div>
+                            </div>
+                            <div class="person_priority high" >High</div>
+                            <div class="margin"></div>
+                            <div class="burger">
+                                <a href="#">
+                                    <img src="assets/burger.svg" alt="burger menu"/>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="person">
+                            <div class="avatar">
+                                <img src="assets/person6.png" alt="avatar"/>
+                            </div>
+                            <div class="person_actions">
+                                <div class="cell_name_info">Downtime since last week</div>
+                                <div class="cell_name_date">Updated 3 day ago</div>
+                            </div>
+                            <div class="person_info">
+                                <div class="cell_name_info">Chris Evans</div>
+                                <div class="cell_name_date">on 23.05.2019</div>
+                            </div>
+                            <div class="date_info">
+                                <div class="cell_name_info">May 25, 2019</div>
+                                <div class="cell_name_date">2:00 AM</div>
+                            </div>
+                            <div class="person_priority normal" >Normal</div>
+                            <div class="burger">
+                                <a href="#">
+                                    <img src="assets/burger.svg" alt="burger menu"/>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="person">
+                            <div class="avatar">
+                                <img src="assets/person7.png" alt="avatar"/>
+                            </div>
+                            <div class="person_actions">
+                                <div class="cell_name_info">Referral Bonus</div>
+                                <div class="cell_name_date">Updated 4 day ago</div>
+                            </div>
+                            <div class="person_info">
+                                <div class="cell_name_info">Sam Smith</div>
+                                <div class="cell_name_date">on 22.05.2019</div>
+                            </div>
+                            <div class="date_info">
+                                <div class="cell_name_info">May 25, 2019</div>
+                                <div class="cell_name_date">11:30 AM</div>
+                            </div>
+                            <div class="person_priority low" >low</div>
+                            <div class="margin1"></div>
+                            <div class="burger">
+                                <a href="#">
+                                    <img src="assets/burger.svg" alt="burger menu"/>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="person">
+                            <div class="avatar">
+                                <img src="assets/person8.png" alt="avatar"/>
+                            </div>
+                            <div class="person_actions">
+                                <div class="cell_name_info">How do I change my password?</div>
+                                <div class="cell_name_date">Updated 6 day ago</div>
+                            </div>
+                            <div class="person_info">
+                                <div class="cell_name_info">Steve Rogers</div>
+                                <div class="cell_name_date">on 21.05.2019</div>
+                            </div>
+                            <div class="date_info">
+                                <div class="cell_name_info">May 24, 2019</div>
+                                <div class="cell_name_date">1:00 AM</div>
+                            </div>
+                            <div class="person_priority normal">Normal</div>
+                           
+                            <div class="burger">
+                                <a href="#">
+                                    <img src="assets/burger.svg" alt="burger menu"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table_footer">
+                        <div class="page">
+                            <div class="page_text">Rows per page: </div>
+                            <div class="page_num">8</div>
+                            <div class="page_icon">
+                                <a href="#">
+                                <img src="assets/dropdown.svg"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="count_page">1-8 of 1240</div>
+                        <div class="left_arrow"><a href="#">&lt;</a></div>
+                        <div class="right_arrow"><a href="#">&gt;</a></div>
+                    </div>
+            </div>   
+        </div>
+
+
+    </div>
+    
+<script src="main.min.js"></script>
+</body>
+</html>
